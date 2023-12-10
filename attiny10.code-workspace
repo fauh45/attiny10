@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "blink"
+		},
+		{
+			"name": "blink-test",
+			"path": "blink-test"
+		},
+		{
+			"name": "button",
+			"path": "button"
+		},
+		{
+			"name": "adc-potentiometer",
+			"path": "adc-potentiometer"
+		}
+	],
+	"settings": {}
+}
