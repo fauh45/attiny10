@@ -18,7 +18,7 @@ int main()
     uint8_t adc_val;
 
     ADMUX = ADC1;                                                      // Select ADC MUX to PIN PB1
-    ADCSRA = (1 << ADEN) | (1 << ADPS2) | (1 << ADPS1) | (1 << ADPS0); // Turn on ADC, set presclaer to div factor 128
+    ADCSRA = (1 << ADEN) | (1 << ADPS0); // Turn on ADC, set presclaer to div factor 128
 
     while (1)
     {
@@ -28,7 +28,7 @@ int main()
 
         adc_val = ADCL;
 
-        if (adc_val < 64) // If the encoder is set to 1/4 full, just turn on the LED without blink
+        if (adc_val < 32) // If the encoder is set to 1/4 full, just turn on the LED without blink
         {
 
             DDRB |= 1 << DDB0; // Turn PB0 to sink
