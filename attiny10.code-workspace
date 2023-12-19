@@ -1,9 +1,6 @@
 {
 	"folders": [
 		{
-			"path": "blink"
-		},
-		{
 			"name": "blink-test",
 			"path": "blink-test"
 		},
@@ -14,6 +11,10 @@
 		{
 			"name": "adc-potentiometer",
 			"path": "adc-potentiometer"
+		},
+		{
+			"name": "bitbang-oled",
+			"path": "bitbang-oled"
 		}
 	],
 	"settings": {}
