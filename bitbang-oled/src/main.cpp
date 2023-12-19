@@ -131,10 +131,10 @@ int main()
         }
         else
         {
-            Tx(0x80);
-            Tx(0x80);
-            Tx(0x80);
-            Tx(0x80);
+            Tx(0xFF);
+            Tx(0xFF);
+            Tx(0xFF);
+            Tx(0xFF);
         }
     }
 
